@@ -1,0 +1,159 @@
+/* footer */
+
+footer {
+  background-color: $footer-bgc;
+
+  .container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    display: flex;
+    align-items: baseline;
+  }
+}
+
+.footer-section-1 {
+  .logo {
+    color: $alternative-white-text;
+  }
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    margin-top: 20px;
+  }
+  .adress {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    color: $alternative-white-text;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+  .link {
+    margin-top: 9px;
+
+    color: #ffffff99;
+
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    text-decoration: none;
+  }
+}
+
+.footer-section-2 {
+  margin-left: 70px;
+
+  .text {
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+
+    color: $alternative-white-text;
+  }
+  .foot-link {
+    display: flex;
+    align-items: center;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .foot-item:not(:first-child) {
+    margin-left: 10px;
+  }
+  .icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 44px;
+    height: 44px;
+
+    border-radius: 50%;
+
+    line-height: 0px;
+    background-color: #ffffff1a;
+
+    transition: background-color 250ms $timing-function;
+
+    &:hover,
+    &:focus {
+      background-color: $hover-focus-text-color;
+    }
+  }
+  .icon {
+    fill: $alternative-white-text;
+  }
+}
+
+.footer-section-3 {
+  margin-left: 93px;
+
+  .text {
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+
+    color: $alternative-white-text;
+  }
+  .foot-form {
+    display: flex;
+  }
+  .foot-input {
+    padding: 0px 16px;
+    margin-right: 12px;
+    width: 358px;
+    height: 50px;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    outline: transparent;
+
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .sign-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 200px;
+    height: 50px;
+
+    background-color: $hover-focus-text-color;
+    border-color: transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    cursor: pointer;
+  }
+  .sign-name {
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: $alternative-white-text;
+  }
+  .sign-icon {
+    fill: $alternative-white-text;
+  }
+}

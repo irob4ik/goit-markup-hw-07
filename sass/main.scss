@@ -1,5 +1,9 @@
 @import './utils/variables';
 @import './utils/defaults';
-@import './utils/utility';
+@import './utils/vis-hidden';
+@import './utils/placeholders';
 @import './base/container';
 @import './base/body';
+@import './components/header';
+@import './components/logo';
+@import './components/footer';
