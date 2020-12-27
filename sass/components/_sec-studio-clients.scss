@@ -1,0 +1,46 @@
+.studio-clients {
+  .container {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .clients-header {
+    margin-top: 0px;
+    margin-bottom: 50px;
+
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+}
+
+.clients-list {
+  @extend %ul-reset;
+  display: flex;
+  align-items: center;
+
+  .clients-item:not(:first-child) {
+    margin-left: 30px;
+  }
+  .client-link {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+
+    width: 170px;
+    height: 90px;
+    line-height: 0px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+
+    fill: $social-icon-link;
+
+    transition: border-color 250ms $timing-function, fill 250ms $timing-function;
+
+    &:focus,
+    &:hover {
+      border-color: $hover-focus-text-color;
+      fill: $hover-focus-text-color;
+    }
+  }
+}

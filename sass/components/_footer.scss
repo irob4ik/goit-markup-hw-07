@@ -63,12 +63,10 @@ footer {
     color: $alternative-white-text;
   }
   .foot-link {
+    @extend %ul-reset;
+
     display: flex;
     align-items: center;
-
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
   }
   .foot-item:not(:first-child) {
     margin-left: 10px;
