@@ -2,7 +2,7 @@ body {
   background-color: $primary-bgc;
   color: $primary-text-color;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: $main-font;
   font-weight: 400;
   letter-spacing: 0.03em;
 }
